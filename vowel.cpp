@@ -3,11 +3,10 @@
 main()
 {
 char str[100];
-int a,vowel,consonant,i;
+int a,vowel,i;
 printf("Enter a string:");
 fgets(str,100,stdin);
 vowel=0;
-consonant=0;
 a=strlen(str);
 for(i=0; i<a; i++)
     {
